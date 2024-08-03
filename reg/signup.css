@@ -1,0 +1,124 @@
+body {
+  margin: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  background-image: url("https://i.pinimg.com/564x/47/c8/0f/47c80fb43dfd8e884b63709c32275097.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.container {
+  background-color: #144f44;
+  border-radius: 10px;
+  padding: 40px;
+  width: 400px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  text-align: center;
+}
+
+.container img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #00bbaa;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-options a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.form-options a:hover {
+  text-decoration: underline;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #00bbaa;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: #009688;
+}
+
+.footer {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #00bbaa;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #ffdddd;
+  background-color: #ff4444;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: none;
+}

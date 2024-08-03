@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+}
+.carousel{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;  
+}
+.slider-section{
+    height: 50vh;
+}
+
+.price{
+    margin-top: 2%;
+    margin-left: 40%;
+}
+.btn {
+
+    border-radius: 30px; /* Border radius */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.card {
+    width: 100%;
+}
